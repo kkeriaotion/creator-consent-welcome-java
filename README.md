@@ -63,3 +63,7 @@ Quick start is above. For a real deployment you'll also need the following. Thes
 **Creator Consent Welcome Java: SMS (required for real sending)**
 - **Creator Consent Welcome Java:** Many carriers and regions require a **pre-approved template and signature** before they will accept delivery. Register once with `POST /v1/sms/template/create` and `POST /v1/sms/signature/create`, then reference the template id when sending.
 - **Creator Consent Welcome Java:** Sandbox or test numbers may pass without that setup; production traffic generally will not.
+
+## Further reading
+
+- [FastAPI Session Verify Returns Invalid After Deploy — Debug Cookie Domain](docs/fastapi-session-verify-returns-invalid-after-depl-vqavlq.md)
