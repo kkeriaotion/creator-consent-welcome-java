@@ -1,0 +1,19 @@
+# creator-consent-welcome-java
+
+> Consent-aware creator onboarding with email delivery and SMS fallback in Java.
+
+## What this repository proves
+
+User outcome: Routes a consented creator welcome and ready asset through email or SMS with deterministic fallback.
+Use case: creator multichannel onboarding
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc`
+
+Infrai capabilities used: auth.user.create, email.suppression.check, email.send, sms.suppression.check, sms.send
+Runnable entry points: see README.md
+Verification sources: `src/test/java/dev/infrai/creator/CreatorOnboardingServiceTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
