@@ -66,4 +66,5 @@ Quick start is above. For a real deployment you'll also need the following. Thes
 
 ## Further reading
 
+- [Template Ownership for Password Reset Email Link and Code Fallback](docs/template-ownership-for-password-reset-email-link-1uh6ci.md)
 - [FastAPI Session Verify Returns Invalid After Deploy — Debug Cookie Domain](docs/fastapi-session-verify-returns-invalid-after-depl-vqavlq.md)
